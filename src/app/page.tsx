@@ -611,7 +611,7 @@ export default function WebhookTool() {
   return (
     <div className="container mx-auto py-8 px-4 relative">
       <h1 className="text-3xl font-bold mb-6 text-center">
-        Discord Webhook Multi-Tool
+        Discord Webhook doy-star-Tool
       </h1>
 
       <Tabs
@@ -1636,7 +1636,7 @@ export default function WebhookTool() {
       <footer className="mt-8 text-right flex justify-end gap-2">
         <Link
           target="_blank"
-          href="https://discord.com/servers/uncover-it-1298592315694387220"
+          href="https://discord.gg/Js2Ek9G4m7"
           className={buttonVariants({ variant: "outline", size: "icon" })}
         >
           <Image
@@ -1649,7 +1649,7 @@ export default function WebhookTool() {
         </Link>
         <Link
           target="_blank"
-          href="https://github.com/Uncover-it/webhook-multitool"
+          href="https://github.com/DOY/webhook-multitool"
           className={buttonVariants({ variant: "outline", size: "icon" })}
         >
           <Image

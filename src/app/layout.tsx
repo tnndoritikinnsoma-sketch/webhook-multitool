@@ -7,11 +7,11 @@ import { Grid } from "@/components/ui/grid";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://webhook.uncoverit.org"),
+  metadataBase: new URL("https://webhook.doy.org"),
   alternates: { canonical: "/" },
   title: {
-    default: "Discord Webhook Multi-Tool",
-    template: "Discord Webhook Multi-Tool",
+    default: "DOY Webhook doy-star-Tool",
+    template: "DOY Webhook doy-star-Tool",
   },
   description:
     "Take control of Discord webhooks online. Text-to-speech, spam messages, view webhook details, and delete unwanted webhooks easily with our multitool.",
@@ -29,18 +29,18 @@ export const metadata: Metadata = {
     "discord webhook spammer",
     "discord webhook deleter",
     "discord multitool",
-    "uncover it webhook",
-    "uncover it webhook spammer",
-    "uncover it spammer",
-    "webhook uncover it",
-    "webhook uncoverit",
-    "uncoverit webhook",
-    "uncoverit",
-    "uncover it",
+    "doy webhook",
+    "doy webhook spammer",
+    "doy spammer",
+    "webhook doy",
+    "webhook doy",
+    "doy webhook",
+    "doy",
+    "doy",
     "disco with me",
     "disco w me",
     "discord spam",
-    "uncover it webhook spammer",
+    "doy webhook spammer",
     "discord webhook",
     "online",
     "customize",
@@ -48,17 +48,17 @@ export const metadata: Metadata = {
     "webhook spammer online",
     "disco with me discord",
     "disco with me webhook",
-    "disco with me uncover it",
+    "disco with me doy",
     "webhook tools",
     "online webhook tool",
     "webhook",
   ],
   openGraph: {
-    title: "Discord Webhook Multi-Tool",
+    title: "DOY Webhook doy-star-Tool",
     description:
       "Take control of Discord webhooks online. Text-to-speech, spam messages, view webhook details, and delete unwanted webhooks easily with our multitool.",
-    url: "https://webhook.uncoverit.org",
-    siteName: "Discord Webhook Multi-Tool",
+    url: "https://webhook.doy.org",
+    siteName: "DOY Webhook doy-star-Tool",
     locale: "en_US",
     type: "website",
   },
@@ -74,7 +74,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Discord Webhook Multi-Tool",
+    title: "DOY Webhook doy-star-Tool",
     card: "summary_large_image",
     description:
       "Take control of Discord webhooks online. Text-to-speech, spam messages, view webhook details, and delete unwanted webhooks easily with our multitool.",
@@ -101,7 +101,7 @@ export default function RootLayout({
         </ThemeProvider>
       </body>
       <GoogleAnalytics gaId="G-T1PPWT7NT4" />
-      <Script src="https://api.instatus.com/widget?host=status.uncoverit.org&code=4f0eef87&locale=en" />
+      <Script src="https://api.instatus.com/widget?host=status.doy.org&code=4f0eef87&locale=en" />
     </html>
   );
 }
